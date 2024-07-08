@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+
+<body>
+    <h1>Your Information</h1>
+    <form action="backend.php">
+        <div>
+            <label for="fname">First Name:<input type="text" name="F.Name" id="fname"></label>
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last Name:<input type="text" name="L.Name" id="lname"></label>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:<input type="email" name="myEmail" id="email"></label>
+        </div>
+        <br>
+        <div>
+            <label for="contact">Contact:<input type="number" name="myContact" id="contact"></label>
+        </div>
+        <br>
+        <div>
+            Gender:<input type="radio" name="Gender">Male <input type="radio" name="Gender">Female
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Date of Birth:<input type="date" name="myBirthday" id="birthday"></label>
+        </div>
+        <br>
+        <label for="adress">Adress:</label>
+        <div>
+            <textarea name="myAdress" cols="35" rows="05" id="adress"></textarea>
+        </div>
+        <br>
+        <div>
+            City:<select name="myCity">
+                <option value="kar">Karachi</option>
+                <option value="lah">Lahore</option>
+                <option value="isl">Islamabad</option>
+                <option value="pes">Peshawer</option>
+                <option value="mul">Multan</option>
+                <option value="que">Quetta</option>
+                <option value="non" selected>None</option>
+            </select>
+
+            Country:<select name="myCountry">
+                <option value="pak">Pakistan</option>
+                <option value="ind">India</option>
+                <option value="ban">Bangladesh</option>
+                <option value="eng">England</option>
+                <option value="aus">Austrailia</option>
+                <option value="afh">Afghanistan</option>
+                <option value="non" selected>None</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Are You Intrested<input type="checkbox" name="Intrest">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
